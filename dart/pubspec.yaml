@@ -1,0 +1,9 @@
+name: sakkanal_tarif_engine
+description: Moteur tarifaire Woyofal (Senelec, Sénégal), grille CRSE 2026. Source de vérité des ports JS et Python.
+version: 1.0.0
+repository: https://github.com/jabrai-il/sakkanal-tarif-engine
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^4.0.0

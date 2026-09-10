@@ -1,0 +1,661 @@
+{
+  "source": "dart/lib/tarif_model.dart",
+  "grille": "CRSE 01/01/2026 (décision n°2025-140)",
+  "genere_par": "tool/generate_test_vectors.dart",
+  "vectors": [
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 50.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 4100.0,
+        "taxeCommunale": 102.5,
+        "redevance": 429.0,
+        "tva": 0.0,
+        "total": 4631.5
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 50.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 4100.0,
+        "taxeCommunale": 102.5,
+        "redevance": 1427.0,
+        "tva": 0.0,
+        "total": 5629.5
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 100.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 8200.0,
+        "taxeCommunale": 205.0,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 8405.0
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 100.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 8200.0,
+        "taxeCommunale": 205.0,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 8405.0
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 100.0,
+      "cumulAvant": 100.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 10924.5,
+        "taxeCommunale": 273.1125,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 11197.6125
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 100.0,
+      "cumulAvant": 100.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 10924.5,
+        "taxeCommunale": 273.1125,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 11197.6125
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 200.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 19124.5,
+        "taxeCommunale": 478.1125,
+        "redevance": 429.0,
+        "tva": 0.0,
+        "total": 20031.6125
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 200.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 19124.5,
+        "taxeCommunale": 478.1125,
+        "redevance": 1427.0,
+        "tva": 0.0,
+        "total": 21029.6125
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 100.0,
+      "cumulAvant": 200.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 13649.0,
+        "taxeCommunale": 341.225,
+        "redevance": 0.0,
+        "tva": 1336.34025,
+        "total": 15326.56525
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 100.0,
+      "cumulAvant": 200.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 13649.0,
+        "taxeCommunale": 341.225,
+        "redevance": 0.0,
+        "tva": 1515.9802499999998,
+        "total": 15506.20525
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 300.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 32773.5,
+        "taxeCommunale": 819.3375000000001,
+        "redevance": 429.0,
+        "tva": 1336.34025,
+        "total": 35358.17775
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 300.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 32773.5,
+        "taxeCommunale": 819.3375000000001,
+        "redevance": 1427.0,
+        "tva": 1515.9802499999998,
+        "total": 36535.81775
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 50.0,
+      "cumulAvant": 300.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 6824.5,
+        "taxeCommunale": 170.6125,
+        "redevance": 0.0,
+        "tva": 1336.34025,
+        "total": 8331.45275
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 50.0,
+      "cumulAvant": 300.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 6824.5,
+        "taxeCommunale": 170.6125,
+        "redevance": 0.0,
+        "tva": 1515.9802499999998,
+        "total": 8511.09275
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 100.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 3,
+      "attendu": {
+        "energie": 8200.0,
+        "taxeCommunale": 205.0,
+        "redevance": 1287.0,
+        "tva": 0.0,
+        "total": 9692.0
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 100.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 3,
+      "attendu": {
+        "energie": 8200.0,
+        "taxeCommunale": 205.0,
+        "redevance": 4281.0,
+        "tva": 0.0,
+        "total": 12686.0
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 33.7,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 2763.4,
+        "taxeCommunale": 69.08500000000001,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 2832.485
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 33.7,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 2763.4,
+        "taxeCommunale": 69.08500000000001,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 2832.485
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "kwh": 149.95,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 12291.800000000001,
+        "taxeCommunale": 307.2950000000001,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 12599.095000000001
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dpp",
+      "compteur": "tri",
+      "kwh": 149.95,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 12291.800000000001,
+        "taxeCommunale": 307.2950000000001,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 12599.095000000001
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dmp",
+      "compteur": "mono",
+      "kwh": 40.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 4449.2,
+        "taxeCommunale": 111.23,
+        "redevance": 429.0,
+        "tva": 0.0,
+        "total": 4989.429999999999
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dmp",
+      "compteur": "tri",
+      "kwh": 40.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 4449.2,
+        "taxeCommunale": 111.23,
+        "redevance": 1427.0,
+        "tva": 0.0,
+        "total": 5987.429999999999
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dmp",
+      "compteur": "mono",
+      "kwh": 100.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 12738.5,
+        "taxeCommunale": 318.46250000000003,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 13056.9625
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dmp",
+      "compteur": "tri",
+      "kwh": 100.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 12738.5,
+        "taxeCommunale": 318.46250000000003,
+        "redevance": 0.0,
+        "tva": 0.0,
+        "total": 13056.9625
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dmp",
+      "compteur": "mono",
+      "kwh": 100.0,
+      "cumulAvant": 250.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 14354.0,
+        "taxeCommunale": 358.85,
+        "redevance": 0.0,
+        "tva": 1401.3765,
+        "total": 16114.2265
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "dmp",
+      "compteur": "tri",
+      "kwh": 100.0,
+      "cumulAvant": 250.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 14354.0,
+        "taxeCommunale": 358.85,
+        "redevance": 0.0,
+        "tva": 1581.0164999999997,
+        "total": 16293.8665
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "ppp",
+      "compteur": "mono",
+      "kwh": 40.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 5897.200000000001,
+        "taxeCommunale": 147.43000000000004,
+        "redevance": 429.0,
+        "tva": 1165.2534,
+        "total": 7638.883400000001
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "ppp",
+      "compteur": "tri",
+      "kwh": 40.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 5897.200000000001,
+        "taxeCommunale": 147.43000000000004,
+        "redevance": 1427.0,
+        "tva": 1344.8934000000002,
+        "total": 8816.523400000002
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "ppp",
+      "compteur": "mono",
+      "kwh": 200.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 35847.5,
+        "taxeCommunale": 896.1875,
+        "redevance": 0.0,
+        "tva": 6691.08375,
+        "total": 43434.77125
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "ppp",
+      "compteur": "tri",
+      "kwh": 200.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 35847.5,
+        "taxeCommunale": 896.1875,
+        "redevance": 0.0,
+        "tva": 6870.72375,
+        "total": 43614.41125
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "pmp",
+      "compteur": "mono",
+      "kwh": 150.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 26051.5,
+        "taxeCommunale": 651.2875,
+        "redevance": 429.0,
+        "tva": 4883.72175,
+        "total": 32015.50925
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "pmp",
+      "compteur": "tri",
+      "kwh": 150.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 26051.5,
+        "taxeCommunale": 651.2875,
+        "redevance": 1427.0,
+        "tva": 5063.361749999999,
+        "total": 33193.149249999995
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "pmp",
+      "compteur": "mono",
+      "kwh": 400.0,
+      "cumulAvant": 100.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 76404.0,
+        "taxeCommunale": 1910.1000000000001,
+        "redevance": 0.0,
+        "tva": 14173.758,
+        "total": 92487.85800000001
+      }
+    },
+    {
+      "type": "cout",
+      "categorie": "pmp",
+      "compteur": "tri",
+      "kwh": 400.0,
+      "cumulAvant": 100.0,
+      "premiere": false,
+      "nbMoisRedevance": 1,
+      "attendu": {
+        "energie": 76404.0,
+        "taxeCommunale": 1910.1000000000001,
+        "redevance": 0.0,
+        "tva": 14353.398000000001,
+        "total": 92667.498
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 500.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 5.9
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 1000.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 11.8
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 2500.0,
+      "cumulAvant": 0.0,
+      "premiere": true,
+      "attendu": {
+        "kwh": 24.6
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 5000.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 59.5
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 5000.0,
+      "cumulAvant": 140.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 39.7
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 10000.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 119.0
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dpp",
+      "compteur": "mono",
+      "montant": 10000.0,
+      "cumulAvant": 240.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 61.6
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "dmp",
+      "compteur": "mono",
+      "montant": 5000.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 43.9
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "ppp",
+      "compteur": "mono",
+      "montant": 5000.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 27.6
+      }
+    },
+    {
+      "type": "montant",
+      "categorie": "pmp",
+      "compteur": "mono",
+      "montant": 10000.0,
+      "cumulAvant": 0.0,
+      "premiere": false,
+      "attendu": {
+        "kwh": 49.7
+      }
+    }
+  ]
+}

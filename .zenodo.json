@@ -1,0 +1,23 @@
+{
+  "title": "sakkanal-tarif-engine : moteur tarifaire Woyofal (Senelec, Sénégal) en Dart, JavaScript et Python, avec vecteurs de test et modèle de recettes",
+  "upload_type": "software",
+  "description": "<p>Implémentation de référence de la grille tarifaire de l'électricité prépayée Woyofal (Senelec, Sénégal), grille CRSE applicable au 1er janvier 2026 (décision n° 2025-140), en trois langages alignés au franc près : Dart (source de vérité, moteur de l'application Sakkanal), JavaScript (simulateur web) et Python. La parité est garantie par 44 vecteurs de test partagés couvrant les franchissements de tranche, le seuil de TVA, la redevance multi-mois et les règles d'arrondi. Le dépôt contient aussi le classeur de modélisation des recettes des quatre composantes de réforme (fenêtre glissante, dilatation des tranches pour compteurs partagés, tarif social ciblé, bi-horaire).</p><p>Code compagnon du working paper : Seck, D. (2026), <em>Tarification par blocs et réinitialisation calendaire dans l'électricité prépayée : défauts structurels et réforme à budget constant. Le cas du système Woyofal au Sénégal</em>.</p><p><strong>English.</strong> Reference implementation of Senegal's Woyofal prepaid electricity tariff in Dart, JavaScript and Python, cross-checked by 44 shared test vectors, with the revenue model of the reform proposed in the companion working paper <em>Increasing Block Tariffs and Calendar Reset in Prepaid Electricity: Structural Flaws and a Budget-Neutral Reform</em>.</p>",
+  "creators": [
+    { "name": "Seck, Djiby", "affiliation": "Chercheur indépendant" }
+  ],
+  "keywords": [
+    "electricity tariff", "prepaid electricity", "increasing block tariff", "subsidy targeting",
+    "Senegal", "Woyofal", "Senelec", "tarification par blocs", "électricité prépayée", "Sénégal"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "fra",
+  "version": "1.0.0",
+  "related_identifiers": [
+    { "identifier": "https://sakkanal.app", "relation": "isSupplementTo", "resource_type": "other" }
+  ],
+  "subjects": [
+    { "term": "Energy economics", "identifier": "https://id.loc.gov/authorities/subjects/sh85043019", "scheme": "url" }
+  ],
+  "notes": "Codes JEL de l'article compagnon : L94, L51, Q48, H23, O55."
+}

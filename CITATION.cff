@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce moteur, merci de citer le logiciel et l'article compagnon."
+type: software
+title: "sakkanal-tarif-engine : moteur tarifaire Woyofal (Senelec, Sénégal) en Dart, JavaScript et Python"
+version: 1.0.0
+date-released: 2026-09-10
+license: MIT
+repository-code: "https://github.com/jabrai-il/sakkanal-tarif-engine"
+url: "https://sakkanal.app"
+authors:
+  - family-names: Seck
+    given-names: Djiby
+    email: admin@jabra-il.com
+    website: "https://jabra-il.com"
+keywords:
+  - electricity tariff
+  - prepaid electricity
+  - increasing block tariff
+  - Senegal
+  - Woyofal
+  - Senelec
+  - tarification par blocs
+abstract: >-
+  Implémentation de référence de la grille tarifaire Woyofal (CRSE, décision n° 2025-140,
+  applicable au 1er janvier 2026) en trois langages alignés au franc près, avec 44 vecteurs
+  de test partagés et le classeur de modélisation des recettes de la réforme proposée dans
+  l'article compagnon.
+preferred-citation:
+  type: report
+  title: "Tarification par blocs et réinitialisation calendaire dans l'électricité prépayée : défauts structurels et réforme à budget constant. Le cas du système Woyofal au Sénégal"
+  authors:
+    - family-names: Seck
+      given-names: Djiby
+  year: 2026
+  month: 9
+  notes: "Working paper, version 1.0"

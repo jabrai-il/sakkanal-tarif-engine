@@ -1,0 +1,9 @@
+{
+  "name": "sakkanal-tarif-engine",
+  "version": "1.0.0",
+  "description": "Moteur tarifaire Woyofal (Senelec, Sénégal) — port JavaScript",
+  "type": "module",
+  "main": "tarif.js",
+  "scripts": { "test": "node test/tarif.test.mjs" },
+  "license": "MIT"
+}
