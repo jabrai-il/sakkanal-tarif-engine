@@ -5,6 +5,7 @@ title: "sakkanal-tarif-engine : moteur tarifaire Woyofal (Senelec, Sénégal) en
 version: 1.0.0
 date-released: 2026-09-10
 license: MIT
+doi: 10.5281/zenodo.22688976
 repository-code: "https://github.com/jabrai-il/sakkanal-tarif-engine"
 url: "https://sakkanal.app"
 authors:

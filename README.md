@@ -1,5 +1,7 @@
 # sakkanal-tarif-engine
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22688976.svg)](https://doi.org/10.5281/zenodo.22688976)
+
 Moteur tarifaire **Woyofal** (électricité prépayée Senelec, Sénégal) en trois implémentations alignées au franc près : **Dart** (source de vérité), **JavaScript** et **Python**. La parité des trois moteurs est garantie par un jeu commun de **44 vecteurs de test** couvrant les franchissements de tranche, le seuil de TVA, la redevance multi-mois et les règles d'arrondi.
 
 Ce dépôt accompagne l'article :
@@ -74,7 +76,7 @@ Code (Dart, JavaScript, Python) : licence MIT. Vecteurs de test et classeur de m
 
 ## Citer
 
-Voir `CITATION.cff`. La version 1.0.0 est archivée sur Software Heritage (SWHID à attribuer) et référencée par le projet OSF de l'article ; le dépôt GitHub est la version vivante.
+Voir `CITATION.cff`. La version 1.0.0 est archivée sur Zenodo, DOI [10.5281/zenodo.22688976](https://doi.org/10.5281/zenodo.22688976) ; le dépôt GitHub est la version vivante.
 
 ---
 
