@@ -4,7 +4,7 @@ Moteur tarifaire **Woyofal** (électricité prépayée Senelec, Sénégal) en tr
 
 Ce dépôt accompagne l'article :
 
-> Seck, D. (2026). *Tarification par blocs et réinitialisation calendaire dans l'électricité prépayée : défauts structurels et réforme à budget constant. Le cas du système Woyofal au Sénégal.* Working paper, version 1.0. DOI : à attribuer (Zenodo).
+> Seck, D. (2026). *Tarification par blocs et réinitialisation calendaire dans l'électricité prépayée : défauts structurels et réforme à budget constant. Le cas du système Woyofal au Sénégal.* Working paper, version 1.0. SocArXiv/OSF, DOI : [10.31235/osf.io/xdcrq_v1](https://doi.org/10.31235/osf.io/xdcrq_v1) ; identifiant HAL à attribuer.
 
 Le moteur Dart est celui de l'application mobile [Sakkanal](https://sakkanal.app) ; le moteur JavaScript est celui du simulateur web public.
 
@@ -74,7 +74,7 @@ Code (Dart, JavaScript, Python) : licence MIT. Vecteurs de test et classeur de m
 
 ## Citer
 
-Voir `CITATION.cff`. Le DOI Zenodo est celui de la version archivée ; le dépôt GitHub est la version vivante.
+Voir `CITATION.cff`. La version 1.0.0 est archivée sur Software Heritage (SWHID à attribuer) et référencée par le projet OSF de l'article ; le dépôt GitHub est la version vivante.
 
 ---
 
