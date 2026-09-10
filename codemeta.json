@@ -44,6 +44,7 @@
     "@id": "https://doi.org/10.31235/osf.io/xdcrq_v1",
     "name": "Tarification par blocs et réinitialisation calendaire dans l'électricité prépayée : défauts structurels et réforme à budget constant. Le cas du système Woyofal au Sénégal",
     "author": "Djiby Seck",
-    "datePublished": "2026-09-10"
+    "datePublished": "2026-09-10",
+    "sameAs": "https://hal.science/hal-05744677"
   }
 }
